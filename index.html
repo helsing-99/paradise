@@ -136,6 +136,7 @@
             var shareCount = 0;
             
             joinButton.addEventListener('click', function(e) {
+                window.open(config.groupLink, '_blank');
                 setTimeout(function() {
                     joinContainer.classList.add('hidden');
                     approveContainer.classList.remove('hidden');
